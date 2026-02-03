@@ -1,0 +1,49 @@
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+HTML_FILE = Path("widget.html").resolve()
+OUT_PDF = Path("fupa_widget_text.pdf").resolve()
+
+
+def main() -> None:
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+
+        page = browser.new_page(
+            viewport={"width": 1400, "height": 1000},
+        )
+
+        page.goto(HTML_FILE.as_uri(), wait_until="domcontentloaded")
+
+        # Warten bis Widget wirklich gerendert ist
+        page.wait_for_function(
+            """
+            () => {
+              const root = document.querySelector('[id^="fp-widget_root"]');
+              if (!root) return false;
+              const iframe = root.querySelector("iframe");
+              return iframe !== null;
+            }
+            """,
+            timeout=30000,
+        )
+
+        # Fonts / Layout stabilisieren
+        page.wait_for_timeout(2000)
+
+        page.emulate_media(media="screen")
+
+        page.pdf(
+            path=str(OUT_PDF),
+            format="A4",
+            print_background=True,
+            prefer_css_page_size=True,
+        )
+
+        browser.close()
+
+    print(f"OK: {OUT_PDF}")
+
+
+if __name__ == "__main__":
+    main()

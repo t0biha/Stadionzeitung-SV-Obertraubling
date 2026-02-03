@@ -1,0 +1,79 @@
+\ProvidesPackage{style}
+\usepackage[utf8]{inputenc}   % Muss als erstes rein
+   % WICHTIG: Das aktiviert das echte "ß"
+\usepackage[ngerman]{babel}   % Deutsche Trennregeln
+% --- GRUNDLAGEN ---
+\usepackage[utf8]{inputenc}
+
+\usepackage[ngerman]{babel}
+\usepackage{tgheros}          % Die Schriftart
+\renewcommand{\familydefault}{\sfdefault} % Als Standard setzen
+\usepackage{geometry}
+\usepackage{textcomp}
+\usepackage{adjustbox}
+\geometry{a4paper, left=15mm, right=15mm, top=15mm, bottom=20mm}
+
+% --- GRAFIK & TABELLEN ---
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{parskip} % Absatzabstand statt Einrückung
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{pdfpages}
+\usepackage{tabularx}
+\usepackage{hyperref}
+% --- DEINE FARBEN ---
+\definecolor{VereinsRot}{HTML}{D12E2E}
+\definecolor{VereinsBlau}{HTML}{1F5A9A}
+
+% --- DEINE HEADER-BEFEHLE ---
+\newcommand{\RedStripes}{
+    \textcolor{VereinsRot}{/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////}
+}
+
+\newcommand{\BlueHeader}[1]{
+    \noindent\colorbox{VereinsBlau}{\parbox{\dimexpr\textwidth-2\fboxsep}{
+        \centering \color{white} \textbf{#1}
+    }}\vspace{1em}
+}
+\newlength{\FooterHeight}
+\newlength{\BallRadius}
+
+\setlength{\FooterHeight}{1.2cm}
+\setlength{\BallRadius}{0.9cm}\newcommand{\VereinsFooter}{%
+  \begin{tikzpicture}[remember picture, overlay]
+
+    % Mittelpunkt des Balls
+    \coordinate (BallCenter) at
+      ([yshift=\FooterHeight]current page.south);
+
+    % 1. Blauer Balken (NICHT bis ganz unten)
+    \fill[VereinsBlau]
+      ([yshift=0.2cm]current page.south west)
+      rectangle
+      ([yshift=\FooterHeight]current page.south east);
+
+    % 2. Loch für den Ball (Aussparung)
+    \fill[white]
+      (BallCenter) circle (\BallRadius);
+
+    % 3. Fußball
+    \node at (BallCenter) {%
+      \includegraphics[width=1.8cm]{bilder/fussball_icon.png}%
+    };
+
+    % 4. Seitenzahl
+    \node at (BallCenter) {%
+      \sffamily\bfseries\Large\color{VereinsBlau}\thepage%
+    };
+
+  \end{tikzpicture}%
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[C]{\VereinsFooter}
+\usepackage[T1]{fontenc} 
