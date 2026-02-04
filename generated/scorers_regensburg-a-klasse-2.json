@@ -1,0 +1,227 @@
+[
+  {
+    "rank": 1,
+    "player": "M. Dürschl",
+    "club": "TV Barbing",
+    "goals": 22,
+    "assists": 12,
+    "games": 14,
+    "image_slug": "m_durschl"
+  },
+  {
+    "rank": 2,
+    "player": "J. Stegemann",
+    "club": "FK Phönix",
+    "goals": 18,
+    "assists": 8,
+    "games": 11,
+    "image_slug": "j_stegemann"
+  },
+  {
+    "rank": 3,
+    "player": "M. Schmid",
+    "club": "O`traubling",
+    "goals": 13,
+    "assists": 5,
+    "games": 16,
+    "image_slug": "m_schmid"
+  },
+  {
+    "rank": 4,
+    "player": "A. Kabashi",
+    "club": "FC Kosova",
+    "goals": 10,
+    "assists": 2,
+    "games": 11,
+    "image_slug": "a_kabashi"
+  },
+  {
+    "rank": 5,
+    "player": "C. Hartl",
+    "club": "SG SC Matting",
+    "goals": 9,
+    "assists": 8,
+    "games": 15,
+    "image_slug": "c_hartl"
+  },
+  {
+    "rank": 6,
+    "player": "B. Hej Sheykhi",
+    "club": "Stadtamhof",
+    "goals": 9,
+    "assists": 4,
+    "games": 12,
+    "image_slug": "b_hej_sheykhi"
+  },
+  {
+    "rank": 7,
+    "player": "G. Lengyel",
+    "club": "TV Barbing",
+    "goals": 9,
+    "assists": 3,
+    "games": 9,
+    "image_slug": "g_lengyel"
+  },
+  {
+    "rank": 8,
+    "player": "A. Krasniqi",
+    "club": "FC Kosova",
+    "goals": 9,
+    "assists": 2,
+    "games": 9,
+    "image_slug": "a_krasniqi"
+  },
+  {
+    "rank": 9,
+    "player": "N. Mazeen",
+    "club": "Prüfening",
+    "goals": 8,
+    "assists": 0,
+    "games": 10,
+    "image_slug": "n_mazeen"
+  },
+  {
+    "rank": 10,
+    "player": "M. Shahini",
+    "club": "TV Barbing",
+    "goals": 7,
+    "assists": 7,
+    "games": 14,
+    "image_slug": "m_shahini"
+  },
+  {
+    "rank": 11,
+    "player": "V. Liepelt",
+    "club": "O`traubling",
+    "goals": 7,
+    "assists": 3,
+    "games": 13,
+    "image_slug": "v_liepelt"
+  },
+  {
+    "rank": 12,
+    "player": "A. Babl",
+    "club": "Oberhinkofen",
+    "goals": 7,
+    "assists": 3,
+    "games": 14,
+    "image_slug": "a_babl"
+  },
+  {
+    "rank": 13,
+    "player": "P. Strobel",
+    "club": "Stadtamhof",
+    "goals": 7,
+    "assists": 1,
+    "games": 11,
+    "image_slug": "p_strobel"
+  },
+  {
+    "rank": 14,
+    "player": "O. Agboluaje",
+    "club": "Prüfening",
+    "goals": 7,
+    "assists": 0,
+    "games": 11,
+    "image_slug": "o_agboluaje"
+  },
+  {
+    "rank": 15,
+    "player": "D. Penkazki",
+    "club": "Prüfening",
+    "goals": 7,
+    "assists": 0,
+    "games": 12,
+    "image_slug": "d_penkazki"
+  },
+  {
+    "rank": 16,
+    "player": "P. Müller",
+    "club": "Oberhinkofen",
+    "goals": 6,
+    "assists": 4,
+    "games": 11,
+    "image_slug": "p_muller"
+  },
+  {
+    "rank": 17,
+    "player": "E. Üzüm",
+    "club": "Prüfening",
+    "goals": 6,
+    "assists": 0,
+    "games": 14,
+    "image_slug": "e_uzum"
+  },
+  {
+    "rank": 18,
+    "player": "J. Klug",
+    "club": "SG SC Matting",
+    "goals": 5,
+    "assists": 5,
+    "games": 10,
+    "image_slug": "j_klug"
+  },
+  {
+    "rank": 19,
+    "player": "M. Mainka",
+    "club": "TV Barbing",
+    "goals": 5,
+    "assists": 5,
+    "games": 13,
+    "image_slug": "m_mainka"
+  },
+  {
+    "rank": 20,
+    "player": "V. Lening",
+    "club": "Oberisling",
+    "goals": 5,
+    "assists": 5,
+    "games": 13,
+    "image_slug": "v_lening"
+  },
+  {
+    "rank": 21,
+    "player": "J. Andriatsitohainirina",
+    "club": "O`traubling",
+    "goals": 5,
+    "assists": 3,
+    "games": 4,
+    "image_slug": "j_andriatsitohainirina"
+  },
+  {
+    "rank": 22,
+    "player": "J. Weigl",
+    "club": "O`traubling",
+    "goals": 5,
+    "assists": 3,
+    "games": 9,
+    "image_slug": "j_weigl"
+  },
+  {
+    "rank": 23,
+    "player": "J. Van Walbeek",
+    "club": "Stadtamhof",
+    "goals": 5,
+    "assists": 2,
+    "games": 5,
+    "image_slug": "j_van_walbeek"
+  },
+  {
+    "rank": 24,
+    "player": "F. Lingl",
+    "club": "Oberhinkofen",
+    "goals": 5,
+    "assists": 2,
+    "games": 10,
+    "image_slug": "f_lingl"
+  },
+  {
+    "rank": 25,
+    "player": "B. Hashani",
+    "club": "FC Kosova",
+    "goals": 5,
+    "assists": 1,
+    "games": 7,
+    "image_slug": "b_hashani"
+  }
+]

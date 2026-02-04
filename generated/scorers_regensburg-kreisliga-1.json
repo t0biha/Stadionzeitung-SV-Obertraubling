@@ -1,0 +1,227 @@
+[
+  {
+    "rank": 1,
+    "player": "J. Blank",
+    "club": "FC Oberhinkofen",
+    "goals": 29,
+    "assists": 5,
+    "games": 17,
+    "image_slug": "j_blank"
+  },
+  {
+    "rank": 2,
+    "player": "M. Heberlein",
+    "club": "SV Obertraubling",
+    "goals": 20,
+    "assists": 5,
+    "games": 16,
+    "image_slug": "m_heberlein"
+  },
+  {
+    "rank": 3,
+    "player": "M. Mehmedov",
+    "club": "Wörth/Donau",
+    "goals": 18,
+    "assists": 4,
+    "games": 16,
+    "image_slug": "m_mehmedov"
+  },
+  {
+    "rank": 4,
+    "player": "N. Brei",
+    "club": "SV Harting",
+    "goals": 15,
+    "assists": 3,
+    "games": 16,
+    "image_slug": "n_brei"
+  },
+  {
+    "rank": 5,
+    "player": "T. Fuchs",
+    "club": "SV Obertraubling",
+    "goals": 12,
+    "assists": 6,
+    "games": 18,
+    "image_slug": "t_fuchs"
+  },
+  {
+    "rank": 6,
+    "player": "E. Si Hocine",
+    "club": "FC Oberhinkofen",
+    "goals": 11,
+    "assists": 6,
+    "games": 17,
+    "image_slug": "e_si_hocine"
+  },
+  {
+    "rank": 7,
+    "player": "M. Gazdek",
+    "club": "Wörth/Donau",
+    "goals": 10,
+    "assists": 8,
+    "games": 16,
+    "image_slug": "m_gazdek"
+  },
+  {
+    "rank": 8,
+    "player": "D. Kagerer",
+    "club": "Ziegetsdorf",
+    "goals": 10,
+    "assists": 6,
+    "games": 18,
+    "image_slug": "d_kagerer"
+  },
+  {
+    "rank": 9,
+    "player": "N. Lublow",
+    "club": "SV Burgweinting",
+    "goals": 10,
+    "assists": 3,
+    "games": 15,
+    "image_slug": "n_lublow"
+  },
+  {
+    "rank": 10,
+    "player": "M. Braun",
+    "club": "SV Burgweinting",
+    "goals": 9,
+    "assists": 8,
+    "games": 14,
+    "image_slug": "m_braun"
+  },
+  {
+    "rank": 11,
+    "player": "T. Gittel",
+    "club": "SG Walhalla",
+    "goals": 8,
+    "assists": 10,
+    "games": 13,
+    "image_slug": "t_gittel"
+  },
+  {
+    "rank": 12,
+    "player": "S. Schmits",
+    "club": "FC Laub",
+    "goals": 8,
+    "assists": 7,
+    "games": 18,
+    "image_slug": "s_schmits"
+  },
+  {
+    "rank": 13,
+    "player": "R. Schwartz",
+    "club": "SV Obertraubling",
+    "goals": 8,
+    "assists": 4,
+    "games": 15,
+    "image_slug": "r_schwartz"
+  },
+  {
+    "rank": 14,
+    "player": "T. Maier",
+    "club": "Freier TuS",
+    "goals": 8,
+    "assists": 3,
+    "games": 14,
+    "image_slug": "t_maier"
+  },
+  {
+    "rank": 15,
+    "player": "J. Fischer",
+    "club": "SC Regensb.",
+    "goals": 7,
+    "assists": 4,
+    "games": 15,
+    "image_slug": "j_fischer"
+  },
+  {
+    "rank": 16,
+    "player": "M. Kronawitter",
+    "club": "FC Laub",
+    "goals": 7,
+    "assists": 4,
+    "games": 18,
+    "image_slug": "m_kronawitter"
+  },
+  {
+    "rank": 17,
+    "player": "S. Noudjo",
+    "club": "SV Burgweinting",
+    "goals": 7,
+    "assists": 2,
+    "games": 13,
+    "image_slug": "s_noudjo"
+  },
+  {
+    "rank": 18,
+    "player": "N. Sodji",
+    "club": "SV Harting",
+    "goals": 6,
+    "assists": 13,
+    "games": 17,
+    "image_slug": "n_sodji"
+  },
+  {
+    "rank": 19,
+    "player": "A. Muratovic",
+    "club": "Ziegetsdorf",
+    "goals": 6,
+    "assists": 7,
+    "games": 17,
+    "image_slug": "a_muratovic"
+  },
+  {
+    "rank": 20,
+    "player": "B. Hautmann",
+    "club": "SG Walhalla",
+    "goals": 6,
+    "assists": 5,
+    "games": 18,
+    "image_slug": "b_hautmann"
+  },
+  {
+    "rank": 21,
+    "player": "F. Hammouche",
+    "club": "Kareth-Lapp.",
+    "goals": 6,
+    "assists": 4,
+    "games": 9,
+    "image_slug": "f_hammouche"
+  },
+  {
+    "rank": 22,
+    "player": "N. Lamminger",
+    "club": "Kareth-Lapp.",
+    "goals": 6,
+    "assists": 3,
+    "games": 16,
+    "image_slug": "n_lamminger"
+  },
+  {
+    "rank": 23,
+    "player": "J. Wittmann",
+    "club": "FC Laub",
+    "goals": 6,
+    "assists": 3,
+    "games": 18,
+    "image_slug": "j_wittmann"
+  },
+  {
+    "rank": 24,
+    "player": "N. Ludewig",
+    "club": "Donaustauf",
+    "goals": 6,
+    "assists": 2,
+    "games": 9,
+    "image_slug": "n_ludewig"
+  },
+  {
+    "rank": 25,
+    "player": "A. Meister",
+    "club": "Freier TuS",
+    "goals": 6,
+    "assists": 2,
+    "games": 15,
+    "image_slug": "a_meister"
+  }
+]
