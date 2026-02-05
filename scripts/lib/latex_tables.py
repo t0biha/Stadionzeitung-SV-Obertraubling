@@ -3,9 +3,23 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from typing import Any
+import re
+
+
+def _is_spielfrei(name: str) -> bool:
+    return name.strip().lower() == "spielfrei"
+
+
+def _clean_time(raw_time: str) -> str:
+    cleaned = raw_time.strip()
+    if re.match(r"^\d{1,2}:\d{2}$", cleaned):
+        return cleaned
+    return ""
 
 
 def find_logo(team_name: str, logos: dict[str, str]) -> str | None:
+    if _is_spielfrei(team_name):
+        return None
     if team_name in logos:
         return logos[team_name]
     for key, val in logos.items():
@@ -70,7 +84,7 @@ def generate_matchday_table(
         )
 
         datum = str(spiel.get("datum", ""))[:-5]
-        zeit = str(spiel.get("uhrzeit", ""))
+        zeit = _clean_time(str(spiel.get("uhrzeit", "")))
 
         line = (
             f"    \\footnotesize \\color{{gray}} {datum} {zeit} & "

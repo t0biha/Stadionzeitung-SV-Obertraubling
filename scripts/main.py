@@ -129,6 +129,8 @@ def run_widgets(cfg: dict) -> None:
             widget_root_id=widget_cfg["id"],
             club_url=cfg["widgets"]["club_url"],
             viewport=widget_cfg["viewport"],
+            max_height_px=widget_cfg.get("max_height_px"),
+            max_height_ratio=widget_cfg.get("max_height_ratio"),
         )
 
     print("Widgets exportiert.")

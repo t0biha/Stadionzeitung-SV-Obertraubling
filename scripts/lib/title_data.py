@@ -16,6 +16,49 @@ WOCHENTAGE = [
 ]
 
 
+def _normalize_team_name(name: str) -> str:
+    cleaned = (
+        name.lower()
+        .replace("(", " ")
+        .replace(")", " ")
+        .replace(".", " ")
+        .replace("  ", " ")
+        .strip()
+    )
+
+    prefixes = (
+        "sv ",
+        "fc ",
+        "tsv ",
+        "vfr ",
+        "spvgg ",
+        "sg ",
+        "freier ",
+        "sc ",
+        "nk ",
+        "atsv ",
+        "fk ",
+    )
+    for prefix in prefixes:
+        if cleaned.startswith(prefix):
+            cleaned = cleaned[len(prefix) :].lstrip()
+            break
+
+    return " ".join(cleaned.split())
+
+
+def _is_spielfrei(spiel: dict[str, Any]) -> bool:
+    return str(spiel.get("gast", "")).strip().lower() == "spielfrei"
+
+
+def _team_label(team: dict[str, str]) -> str:
+    if team.get("suffix") == "II":
+        return "2. Mannschaft"
+    if team.get("suffix") == "":
+        return "1. Mannschaft"
+    return team.get("name", "Mannschaft")
+
+
 def find_match_for_matchday(
     team_name: str, json_input: Path, matchday: int
 ) -> dict[str, Any] | None:
@@ -26,9 +69,17 @@ def find_match_for_matchday(
         json_input.read_text(encoding="utf-8")
     )
 
+    normalized_team = _normalize_team_name(team_name)
+
     for spiel in alle_spiele:
         try:
-            if int(spiel.get("spieltag")) == matchday and spiel.get("heim") == team_name:
+            if int(spiel.get("spieltag")) != matchday:
+                continue
+
+            heim = spiel.get("heim", "")
+            if heim == team_name:
+                return spiel
+            if _normalize_team_name(heim) == normalized_team:
                 return spiel
         except Exception:
             continue
@@ -48,6 +99,14 @@ def generate_block(
 
     datum_obj = datetime.strptime(spiel["datum"], "%d.%m.%Y")
     wochentag = WOCHENTAGE[datum_obj.weekday()]
+
+    if _is_spielfrei(spiel):
+        label = _team_label(team)
+        return rf"""
+\newcommand{{\TitelSpieltage{team['suffix']}}}{{{spiel['spieltag']}. Spieltag / {team['league']}}}
+\newcommand{{\TitelDatume{team['suffix']}}}{{{wochentag} {spiel['datum']} | Spielfrei}}
+\newcommand{{\TitelPartiee{team['suffix']}}}{{{label} Spielfrei}}
+"""
 
     return rf"""
 \newcommand{{\TitelSpieltage{team['suffix']}}}{{{spiel['spieltag']}. Spieltag / {team['league']}}}

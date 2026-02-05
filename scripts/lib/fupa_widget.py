@@ -12,17 +12,13 @@ HTML_TEMPLATE = """\
     <meta charset="utf-8" />
     <title>FuPa Widget Export</title>
     <style>
-      @page {{
-        size: A4;
-        margin: 12mm;
-      }}
       body {{
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
       }}
       #{root_id} {{
-        max-width: 180mm;
+                width: 100%;
       }}
     </style>
   </head>
@@ -77,12 +73,39 @@ def render_raw_pdf(
 
         page.wait_for_timeout(1500)
 
+        bbox = page.evaluate(
+            """
+            (rootId) => {
+                const el = document.getElementById(rootId);
+                if (!el) return null;
+                const rect = el.getBoundingClientRect();
+                const iframe = el.querySelector("iframe");
+                const iw = iframe ? iframe.offsetWidth : 0;
+                const ih = iframe ? iframe.offsetHeight : 0;
+                const width = Math.ceil(Math.max(rect.width, el.scrollWidth, iw));
+                const height = Math.ceil(Math.max(rect.height, el.scrollHeight, ih));
+                return { width, height };
+            }
+            """,
+            arg=widget_root_id,
+        )
+        if bbox:
+            content_width = int(bbox["width"])
+            content_height = int(bbox["height"])
+            pdf_width = max(content_width, int(viewport["width"]))
+            pdf_height = max(content_height, int(viewport["height"]))
+        else:
+            content_height = int(viewport["height"])
+            pdf_width = int(viewport["width"])
+            pdf_height = int(viewport["height"])
+
         page.emulate_media(media="screen")
         page.pdf(
             path=str(pdf_path),
-            format="A4",
+            width=f"{pdf_width}px",
+            height=f"{pdf_height}px",
             print_background=True,
-            prefer_css_page_size=True,
+            prefer_css_page_size=False,
         )
 
         browser.close()
@@ -122,6 +145,8 @@ def crop_header_footer(
     pad_bottom_pt: float = 6.0,
     fallback_top_crop_pt: float = 70.0,
     fallback_bottom_crop_pt: float = 70.0,
+    max_height_pt: float | None = None,
+    max_height_ratio: float | None = None,
 ) -> None:
     doc = fitz.open(input_pdf)
 
@@ -146,6 +171,12 @@ def crop_header_footer(
             crop_top = rect.y0 + min(fallback_top_crop_pt, 40.0)
             crop_bottom = rect.y1 - min(fallback_bottom_crop_pt, 40.0)
 
+        if max_height_pt is not None:
+            crop_bottom = min(crop_bottom, crop_top + max_height_pt)
+        elif max_height_ratio is not None:
+            full_height = crop_bottom - crop_top
+            crop_bottom = crop_top + max(200.0, full_height * max_height_ratio)
+
         new_rect = fitz.Rect(rect.x0, crop_top, rect.x1, crop_bottom)
         page.set_cropbox(new_rect)
 
@@ -162,6 +193,8 @@ def export_widget(
     widget_root_id: str,
     club_url: str,
     viewport: ViewportSize,
+    max_height_px: int | None = None,
+    max_height_ratio: float | None = None,
 ) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -171,6 +204,14 @@ def export_widget(
 
     write_html(html_file, widget_root_id, club_url)
     render_raw_pdf(
-        html_file, raw_pdf_file, viewport=viewport, widget_root_id=widget_root_id
+        html_file,
+        raw_pdf_file,
+        viewport=viewport,
+        widget_root_id=widget_root_id,
     )
-    crop_header_footer(raw_pdf_file, final_pdf_file)
+    crop_header_footer(
+        raw_pdf_file,
+        final_pdf_file,
+        max_height_pt=float(max_height_px) if max_height_px is not None else None,
+        max_height_ratio=max_height_ratio,
+    )

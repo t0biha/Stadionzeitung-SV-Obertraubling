@@ -82,12 +82,14 @@
     "spielplan_1": {
       "id": "fp-widget_root-38WVHZGg6fWqNQT4lXXbKJdVYAX",
       "output": "fupa_widgetsps1",
-      "viewport": {"width": 1400, "height": 1400}
+      "viewport": {"width": 1400, "height": 1400},
+      "max_height_ratio": 0.8065
     },
     "spielplan_2": {
       "id": "fp-widget_root-38WWPBuI7aT15TYgCCJ7dq3PS5c",
       "output": "fupa_widgetsps2",
-      "viewport": {"width": 1400, "height": 1400}
+      "viewport": {"width": 1400, "height": 1400},
+      "max_height_ratio": 0.8065
     }
   },
   "scorers": {
