@@ -8,6 +8,7 @@ from pathlib import Path
 from lib.config import load_config, resolve_path
 from lib.latex_tables import generate_matchday_table
 from lib.pdf_extract import extract_from_pdf
+from lib.term_list import generate_term_list
 from lib.title_data import generate_title_data
 from lib.fupa_widget import export_widget
 
@@ -136,6 +137,31 @@ def run_widgets(cfg: dict) -> None:
     print("Widgets exportiert.")
 
 
+def run_terms(cfg: dict) -> None:
+    logos_dir = cfg["paths"]["logos_dir"]
+
+    ok_k1 = generate_term_list(
+        json_input=resolve_path(cfg["json"]["k1"]),
+        output_tex=resolve_path(cfg["latex"]["term_k1"]),
+        logos=cfg["logos"]["k1"],
+        logos_dir=logos_dir,
+        team_name=cfg["teams"]["k1"]["name"],
+    )
+
+    ok_a2 = generate_term_list(
+        json_input=resolve_path(cfg["json"]["a2"]),
+        output_tex=resolve_path(cfg["latex"]["term_a2"]),
+        logos=cfg["logos"]["a2"],
+        logos_dir=logos_dir,
+        team_name=cfg["teams"]["a2"]["name"],
+    )
+
+    if ok_k1 and ok_a2:
+        print("Terminlisten aktualisiert.")
+    else:
+        print("Hinweis: Für mindestens eine Terminliste wurden keine Spiele gefunden.")
+
+
 def _run_script(script_name: str, args: list[str]) -> None:
     script_path = Path(__file__).resolve().parent / script_name
     cmd = [sys.executable, str(script_path), *args]
@@ -173,6 +199,7 @@ def main() -> None:
     title.add_argument("--matchday", type=int, default=None)
     sub.add_parser("widgets", help="FuPa Widgets")
     sub.add_parser("scorers", help="Torjäger")
+    sub.add_parser("terms", help="Terminlisten")
 
     args = parser.parse_args()
 
@@ -182,6 +209,7 @@ def main() -> None:
         run_title(cfg, args.matchday)
         run_widgets(cfg)
         run_scorers(cfg)
+        run_terms(cfg)
         return
 
     if args.cmd == "extract":
@@ -202,6 +230,10 @@ def main() -> None:
 
     if args.cmd == "scorers":
         run_scorers(cfg)
+        return
+
+    if args.cmd == "terms":
+        run_terms(cfg)
         return
 
 
