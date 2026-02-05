@@ -16,7 +16,9 @@ WOCHENTAGE = [
 ]
 
 
-def find_next_home_match(team_name: str, json_input: Path) -> dict[str, Any] | None:
+def find_match_for_matchday(
+    team_name: str, json_input: Path, matchday: int
+) -> dict[str, Any] | None:
     if not json_input.exists():
         return None
 
@@ -24,12 +26,9 @@ def find_next_home_match(team_name: str, json_input: Path) -> dict[str, Any] | N
         json_input.read_text(encoding="utf-8")
     )
 
-    heute = datetime.now()
-
     for spiel in alle_spiele:
         try:
-            datum_obj = datetime.strptime(spiel["datum"], "%d.%m.%Y")
-            if datum_obj >= heute and spiel["heim"] == team_name:
+            if int(spiel.get("spieltag")) == matchday and spiel.get("heim") == team_name:
                 return spiel
         except Exception:
             continue
@@ -37,10 +36,12 @@ def find_next_home_match(team_name: str, json_input: Path) -> dict[str, Any] | N
     return None
 
 
-def generate_block(team: dict[str, str], spiel: dict[str, Any] | None) -> str:
+def generate_block(
+    team: dict[str, str], spiel: dict[str, Any] | None, matchday: int
+) -> str:
     if not spiel:
         return rf"""
-\newcommand{{\TitelSpieltage{team['suffix']}}}{{??. Spieltag / {team['league']}}}
+\newcommand{{\TitelSpieltage{team['suffix']}}}{{{matchday}. Spieltag / {team['league']}}}
 \newcommand{{\TitelDatume{team['suffix']}}}{{??.??.???? | ??:?? Uhr}}
 \newcommand{{\TitelPartiee{team['suffix']}}}{{{team['name']} - Gegner unbekannt}}
 """
@@ -61,14 +62,15 @@ def generate_title_data(
     json_paths: dict[str, Path],
     output_tex: Path,
     issue_text: str,
+    matchday: int,
 ) -> None:
     content = "% Automatisch generierte Daten (1. + 2. Mannschaft)\n"
 
     for team in teams:
         team_name = team["name"]
         key = team["key"]
-        spiel = find_next_home_match(team_name, json_paths[key])
-        content += generate_block(team, spiel)
+        spiel = find_match_for_matchday(team_name, json_paths[key], matchday)
+        content += generate_block(team, spiel, matchday)
 
     content += rf"""
 % Ausgabe Nummer (global)

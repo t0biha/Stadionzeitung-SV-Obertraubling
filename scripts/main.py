@@ -80,7 +80,10 @@ def run_tables(cfg: dict, matchday_input: int | None) -> None:
         print("Hinweis: Für mindestens einen Spieltag wurden keine Spiele gefunden.")
 
 
-def run_title(cfg: dict) -> None:
+def run_title(cfg: dict, matchday_input: int | None) -> None:
+    if matchday_input is None:
+        matchday_input = _prompt_matchday()
+
     teams = [
         {
             "key": "k1",
@@ -109,6 +112,7 @@ def run_title(cfg: dict) -> None:
         json_paths=json_paths,
         output_tex=output_tex,
         issue_text=issue_text,
+        matchday=matchday_input,
     )
 
     print(f"Titel-Daten geschrieben: {output_tex}")
@@ -163,7 +167,8 @@ def main() -> None:
     tables = sub.add_parser("tables", help="Spieltag-Tabellen")
     tables.add_argument("--matchday", type=int, default=None)
 
-    sub.add_parser("title", help="Titeldaten")
+    title = sub.add_parser("title", help="Titeldaten")
+    title.add_argument("--matchday", type=int, default=None)
     sub.add_parser("widgets", help="FuPa Widgets")
     sub.add_parser("scorers", help="Torjäger")
 
@@ -172,7 +177,7 @@ def main() -> None:
     if args.cmd == "weekly":
         run_extract(cfg)
         run_tables(cfg, args.matchday)
-        run_title(cfg)
+        run_title(cfg, args.matchday)
         run_widgets(cfg)
         run_scorers(cfg)
         return
@@ -186,7 +191,7 @@ def main() -> None:
         return
 
     if args.cmd == "title":
-        run_title(cfg)
+        run_title(cfg, args.matchday)
         return
 
     if args.cmd == "widgets":
