@@ -1,0 +1,98 @@
+{
+  "paths": {
+    "generated_dir": "generated",
+    "images_dir": "bilder",
+    "logos_dir": "bilder/logos"
+  },
+  "pdf": {
+    "k1": "spielplank1.pdf",
+    "a2": "spielplana2.pdf"
+  },
+  "json": {
+    "k1": "saison_datenk1.json",
+    "a2": "saison_datena2.json"
+  },
+  "latex": {
+    "k1_current": "generated/tabelle_dspieltagk1.tex",
+    "k1_next": "generated/tabelle_nspieltagk1.tex",
+    "a2_current": "generated/tabelle_dspieltaga2.tex",
+    "a2_next": "generated/tabelle_nspieltaga2.tex"
+  },
+  "title": {
+    "output": "generated/daten_titel.tex",
+    "issue": "Ausgabe Nr. 10, Saison 25/26"
+  },
+  "teams": {
+    "k1": {
+      "name": "SV Obertraubling",
+      "league": "Kreisliga 1",
+      "suffix": ""
+    },
+    "a2": {
+      "name": "SV Obertraubling II",
+      "league": "A-Klasse 2",
+      "suffix": "II"
+    }
+  },
+  "logos": {
+    "k1": {
+      "SV Burgweinting Rgbg.": "burgweinting.pdf",
+      "SV Harting": "harting.pdf",
+      "SV Donaustauf": "donaustauf.pdf",
+      "SG Walhalla Regensburg": "walhalla.pdf",
+      "SV Obertraubling": "obertraubling.pdf",
+      "FC Mintraching": "mintraching.pdf",
+      "Freier TuS Regensburg": "tus_regensburg.pdf",
+      "TSV Kareth-Lappersdorf II": "kareth2.pdf",
+      "FC Oberhinkofen": "oberhinkofen.pdf",
+      "TSV Wörth/Do.": "woerth.pdf",
+      "FC Laub": "laub.pdf",
+      "SC Regensburg": "sc_regensburg.pdf",
+      "ATSV Pirkensee-Ponholz": "pirkensee.pdf",
+      "SpVgg Ziegetsdorf Regensburg": "ziegetsdorf.png"
+    },
+    "a2": {
+      "SV Obertraubling II": "obertraubling.pdf",
+      "SpVgg Stadtamhof Rgbg II": "stadtamhof.png",
+      "FK Phoenix Regensburg": "phoenix.png",
+      "TV Barbing II": "barbing.pdf",
+      "(SG) Matting II/Oberndorf II": "matting_oberndorf.pdf",
+      "Kosova Regensburg II": "kosova.pdf",
+      "FSV Prüfening II": "pruefening.pdf",
+      "FC Oberhinkofen II": "oberhinkofen.pdf",
+      "TSV Oberisling Rgbg II": "oberisling.pdf",
+      "SV Burgweinting Rgbg. II": "burgweinting.pdf",
+      "VfR Regensburg II": "vfr_regensburg.pdf",
+      "NK Hrvatska Regensburg": "hrvatska.pdf",
+      "TSV Neutraubling II zg.": "neutraubling.pdf"
+    }
+  },
+  "widgets": {
+    "club_url": "https://www.fupa.net/club/sv-obertraubling",
+    "tabelle_k1": {
+      "id": "fp-widget_root-38UgvC3Apqel9wRchfYEpuB8oLR",
+      "output": "fupa_widgettk1",
+      "viewport": {"width": 820, "height": 1400}
+    },
+    "tabelle_a2": {
+      "id": "fp-widget_root-38WTKZiqIljuvQbIcPWCXbBxHgM",
+      "output": "fupa_widgetta2",
+      "viewport": {"width": 820, "height": 1400}
+    },
+    "spielplan_1": {
+      "id": "fp-widget_root-38WVHZGg6fWqNQT4lXXbKJdVYAX",
+      "output": "fupa_widgetsps1",
+      "viewport": {"width": 1400, "height": 1400}
+    },
+    "spielplan_2": {
+      "id": "fp-widget_root-38WWPBuI7aT15TYgCCJ7dq3PS5c",
+      "output": "fupa_widgetsps2",
+      "viewport": {"width": 1400, "height": 1400}
+    }
+  },
+  "scorers": {
+    "k1_league": "regensburg-kreisliga-1",
+    "a2_league": "regensburg-a-klasse-2",
+    "top": 10
+  }
+}
