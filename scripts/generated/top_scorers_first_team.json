@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "player": "J. Blank",
+    "club": "FC Oberhinkofen",
+    "goals": 30,
+    "assists": 8,
+    "games": 20,
+    "image_slug": "j_blank"
+  },
+  {
+    "rank": 2,
+    "player": "M. Mehmedov",
+    "club": "Wörth/Donau",
+    "goals": 23,
+    "assists": 5,
+    "games": 18,
+    "image_slug": "m_mehmedov"
+  },
+  {
+    "rank": 3,
+    "player": "M. Heberlein",
+    "club": "SV Obertraubling",
+    "goals": 20,
+    "assists": 5,
+    "games": 18,
+    "image_slug": "m_heberlein"
+  },
+  {
+    "rank": 4,
+    "player": "N. Brei",
+    "club": "SV Harting",
+    "goals": 18,
+    "assists": 4,
+    "games": 18,
+    "image_slug": "n_brei"
+  },
+  {
+    "rank": 5,
+    "player": "D. Kagerer",
+    "club": "Ziegetsdorf",
+    "goals": 15,
+    "assists": 6,
+    "games": 21,
+    "image_slug": "d_kagerer"
+  },
+  {
+    "rank": 6,
+    "player": "E. Si Hocine",
+    "club": "FC Oberhinkofen",
+    "goals": 13,
+    "assists": 7,
+    "games": 20,
+    "image_slug": "e_si_hocine"
+  },
+  {
+    "rank": 7,
+    "player": "T. Fuchs",
+    "club": "SV Obertraubling",
+    "goals": 12,
+    "assists": 6,
+    "games": 20,
+    "image_slug": "t_fuchs"
+  },
+  {
+    "rank": 8,
+    "player": "M. Gazdek",
+    "club": "Wörth/Donau",
+    "goals": 10,
+    "assists": 8,
+    "games": 17,
+    "image_slug": "m_gazdek"
+  },
+  {
+    "rank": 9,
+    "player": "T. Maier",
+    "club": "Freier TuS",
+    "goals": 10,
+    "assists": 4,
+    "games": 16,
+    "image_slug": "t_maier"
+  },
+  {
+    "rank": 10,
+    "player": "N. Lublow",
+    "club": "SV Burgweinting",
+    "goals": 10,
+    "assists": 3,
+    "games": 17,
+    "image_slug": "n_lublow"
+  }
+]

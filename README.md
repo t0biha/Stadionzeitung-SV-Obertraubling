@@ -39,3 +39,7 @@ python scripts/main.py weekly --matchday 21
 ```
 
 Weitere Befehle findest du im CLI, siehe scripts/main.py.
+
+## Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Details siehe LICENSE.

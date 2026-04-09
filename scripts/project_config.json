@@ -5,39 +5,41 @@
     "logos_dir": "bilder/logos"
   },
   "pdf": {
-    "k1": "spielplank1.pdf",
-    "a2": "spielplana2.pdf"
+    "first_team": "first_team_match_plan.pdf",
+    "second_team": "second_team_match_plan.pdf"
   },
   "json": {
-    "k1": "saison_datenk1.json",
-    "a2": "saison_datena2.json"
+    "first_team": "season_data_first_team.json",
+    "second_team": "season_data_second_team.json"
   },
   "latex": {
-    "k1_current": "generated/tabelle_dspieltagk1.tex",
-    "k1_next": "generated/tabelle_nspieltagk1.tex",
-    "a2_current": "generated/tabelle_dspieltaga2.tex",
-    "a2_next": "generated/tabelle_nspieltagk1.tex",
-    "term_k1": "generated/terminliste_k1.tex",
-    "term_a2": "generated/terminliste_a2.tex"
+    "first_team_previous": "generated/matchday_table_previous_first_team.tex",
+    "first_team_current": "generated/matchday_table_current_first_team.tex",
+    "first_team_next": "generated/matchday_table_next_first_team.tex",
+    "second_team_previous": "generated/matchday_table_previous_second_team.tex",
+    "second_team_current": "generated/matchday_table_current_second_team.tex",
+    "second_team_next": "generated/matchday_table_next_second_team.tex",
+    "fixture_list_first_team": "generated/fixture_list_first_team.tex",
+    "fixture_list_second_team": "generated/fixture_list_second_team.tex"
   },
   "title": {
-    "output": "generated/daten_titel.tex",
+    "output": "generated/title_data.tex",
     "issue": "Ausgabe Nr. 10, Saison 25/26"
   },
   "teams": {
-    "k1": {
+    "first_team": {
       "name": "SV Obertraubling",
       "league": "Kreisliga 1",
       "suffix": ""
     },
-    "a2": {
+    "second_team": {
       "name": "SV Obertraubling II",
       "league": "A-Klasse 2",
       "suffix": "II"
     }
   },
   "logos": {
-    "k1": {
+    "first_team": {
       "SV Burgweinting Rgbg.": "burgweinting.pdf",
       "SV Harting": "harting.pdf",
       "SV Donaustauf": "donaustauf.pdf",
@@ -53,7 +55,7 @@
       "ATSV Pirkensee-Ponholz": "pirkensee.pdf",
       "SpVgg Ziegetsdorf Regensburg": "ziegetsdorf.png"
     },
-    "a2": {
+    "second_team": {
       "SV Obertraubling II": "obertraubling.pdf",
       "SpVgg Stadtamhof Rgbg II": "stadtamhof.png",
       "FK Phoenix Regensburg": "phoenix.png",
@@ -71,23 +73,23 @@
   },
   "widgets": {
     "club_url": "https://www.fupa.net/club/sv-obertraubling",
-    "tabelle_k1": {
+    "league_table_first_team": {
       "id": "fp-widget_root-38UgvC3Apqel9wRchfYEpuB8oLR",
       "output": "fupa_widgettk1",
       "viewport": {"width": 820, "height": 1400}
     },
-    "tabelle_a2": {
+    "league_table_second_team": {
       "id": "fp-widget_root-38WTKZiqIljuvQbIcPWCXbBxHgM",
       "output": "fupa_widgetta2",
       "viewport": {"width": 820, "height": 1400}
     },
-    "spielplan_1": {
+    "match_schedule_widget_first_team": {
       "id": "fp-widget_root-38WVHZGg6fWqNQT4lXXbKJdVYAX",
       "output": "fupa_widgetsps1",
       "viewport": {"width": 1400, "height": 1400},
       "max_height_ratio": 0.8065
     },
-    "spielplan_2": {
+    "match_schedule_widget_second_team": {
       "id": "fp-widget_root-38WWPBuI7aT15TYgCCJ7dq3PS5c",
       "output": "fupa_widgetsps2",
       "viewport": {"width": 1400, "height": 1400},
@@ -95,8 +97,8 @@
     }
   },
   "scorers": {
-    "k1_league": "regensburg-kreisliga-1",
-    "a2_league": "regensburg-a-klasse-2",
+    "first_team_league_slug": "regensburg-kreisliga-1",
+    "second_team_league_slug": "regensburg-a-klasse-2",
     "top": 10
   }
 }

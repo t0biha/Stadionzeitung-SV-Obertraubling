@@ -1,0 +1,1274 @@
+[
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "1:6"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "17:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "TSV Neutraubling II zg.",
+        "ergebnis": "4:6"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 2,
+        "datum": "24.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 2,
+        "datum": "24.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "TV Barbing II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "4:5"
+    },
+    {
+        "spieltag": 2,
+        "datum": "06.08.2025",
+        "uhrzeit": "19:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 2,
+        "datum": "24.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "9:2"
+    },
+    {
+        "spieltag": 2,
+        "datum": "24.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "FC Oberhinkofen II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 3,
+        "datum": "18.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "VfR Regensburg II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "2:5"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "TV Barbing II",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "18:00",
+        "heim": "SV Obertraubling II",
+        "gast": "TSV Neutraubling II zg.",
+        "ergebnis": "9:0"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "17:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "0:7"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "5:0"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "6:1"
+    },
+    {
+        "spieltag": 4,
+        "datum": "02.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "17:15",
+        "heim": "TSV Neutraubling II zg.",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "0:8"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "FK",
+        "heim": "Phoenix Regensburg",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "VfR Regensburg II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 5,
+        "datum": "09.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "TV Barbing II",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "TSV Neutraubling II zg.",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "7:0"
+    },
+    {
+        "spieltag": 6,
+        "datum": "03.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "VfR Regensburg II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "NK",
+        "heim": "Hrvatska Regensburg",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 6,
+        "datum": "15.10.2025",
+        "uhrzeit": "19:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "2:6"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "VfR",
+        "heim": "Regensburg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "5:3"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "TV Barbing II",
+        "ergebnis": "0:3"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "TSV Neutraubling II zg.",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "(SG) Matting II/Oberndorf II 0:2 U",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "FSV Prüfening II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "0:3"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "17:15",
+        "heim": "TSV Neutraubling II zg.",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "2:4"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "4:5"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "17:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 8,
+        "datum": "22.03.2026",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "SpVgg",
+        "heim": "Stadtamhof Rgbg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "TSV Neutraubling II zg.",
+        "ergebnis": "9:0"
+    },
+    {
+        "spieltag": 9,
+        "datum": "06.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "4:1"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "8:0"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "TV Barbing II",
+        "ergebnis": "4:5"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "17:15",
+        "heim": "(TSV Neutraubling II zg.)",
+        "gast": "VfR Regensburg II n.an.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "4:2"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "0:3"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "5:3"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "1:5"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 11,
+        "datum": "20.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "FC",
+        "heim": "Kosova Regensburg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "0:10"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "18:15",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "TV Barbing II",
+        "ergebnis": "3:6"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "FK",
+        "heim": "Phoenix Regensburg",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "14:15",
+        "heim": "TV Barbing II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "8:0"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "TSV",
+        "heim": "Oberisling Rgbg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "2:8"
+    },
+    {
+        "spieltag": 13,
+        "datum": "23.10.2025",
+        "uhrzeit": "19:00",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "4:3"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "6:0"
+    },
+    {
+        "spieltag": 14,
+        "datum": "15.04.2026",
+        "uhrzeit": "19:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "2:5"
+    },
+    {
+        "spieltag": 14,
+        "datum": "11.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "1:6"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "TV",
+        "heim": "Barbing II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "4:3"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling II",
+        "gast": "TV Barbing II",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "4:1"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "1:5"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "12:15",
+        "heim": "TV Barbing II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "(SG)",
+        "heim": "Matting II/Oberndorf II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.11.2025",
+        "uhrzeit": "SpVgg",
+        "heim": "Stadtamhof Rgbg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 17,
+        "datum": "22.03.2026",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "TV Barbing II",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.04.2026",
+        "uhrzeit": "19:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 17,
+        "datum": "29.03.2026",
+        "uhrzeit": "13:15",
+        "heim": "VfR Regensburg II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 17,
+        "datum": "22.03.2026",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 18,
+        "datum": "15.03.2026",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "5:3"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "12:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "4:3"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "4:2"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "FC",
+        "heim": "Oberhinkofen II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "0:3"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "16:15",
+        "heim": "TV Barbing II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 19,
+        "datum": "02.04.2026",
+        "uhrzeit": "19:00",
+        "heim": "FSV Prüfening II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "FC",
+        "heim": "Kosova Regensburg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "TV Barbing II",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 19,
+        "datum": "22.03.2026",
+        "uhrzeit": "12:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 19,
+        "datum": "25.03.2026",
+        "uhrzeit": "19:00",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "4:3"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 20,
+        "datum": "28.03.2026",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "TSV",
+        "heim": "Oberisling Rgbg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "TV Barbing II",
+        "ergebnis": "4:5"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "SV",
+        "heim": "Obertraubling II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "17:00",
+        "heim": "FSV Prüfening II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "FC Kosova Regensburg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "13:15",
+        "heim": "TV Barbing II",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "VfR",
+        "heim": "Regensburg II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "FSV",
+        "heim": "Prüfening II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg. II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "FK Phoenix Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "17:30",
+        "heim": "SpVgg Stadtamhof Rgbg II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "(SG)",
+        "heim": "Matting II/Oberndorf II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "13:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "TV Barbing II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "13:15",
+        "heim": "FC Oberhinkofen II",
+        "gast": "TSV Oberisling Rgbg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "13:00",
+        "heim": "(SG) Matting II/Oberndorf II",
+        "gast": "VfR Regensburg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "15:15",
+        "heim": "FSV Prüfening II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "SV Obertraubling II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "SV",
+        "heim": "Burgweinting Rgbg. II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "02.05.2026",
+        "uhrzeit": "16:00",
+        "heim": "TSV Oberisling Rgbg II",
+        "gast": "NK Hrvatska Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "17:15",
+        "heim": "TV Barbing II",
+        "gast": "FC Oberhinkofen II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "09.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "FK Phoenix Regensburg",
+        "gast": "(SG) Matting II/Oberndorf II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "09.05.2026",
+        "uhrzeit": "FC",
+        "heim": "Oberhinkofen II",
+        "gast": "SPIELFREI",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "09.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "NK Hrvatska Regensburg",
+        "gast": "TV Barbing II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "09.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "SV Obertraubling II",
+        "gast": "SV Burgweinting Rgbg. II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "13:00",
+        "heim": "FC Kosova Regensburg II",
+        "gast": "SpVgg Stadtamhof Rgbg II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "09.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "VfR Regensburg II",
+        "gast": "FSV Prüfening II",
+        "ergebnis": "-:-"
+    }
+]

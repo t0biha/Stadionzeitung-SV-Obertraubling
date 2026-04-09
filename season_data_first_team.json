@@ -1,0 +1,1458 @@
+[
+    {
+        "spieltag": 1,
+        "datum": "19.07.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SV Harting",
+        "ergebnis": "0:0"
+    },
+    {
+        "spieltag": 1,
+        "datum": "18.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "FC Mintraching",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 1,
+        "datum": "18.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 1,
+        "datum": "20.07.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "SC Regensburg",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 1,
+        "datum": "19.07.2025",
+        "uhrzeit": "16:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "SC Regensburg",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "TSV Wörth/Do.",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SV Obertraubling",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 2,
+        "datum": "20.08.2025",
+        "uhrzeit": "18:30",
+        "heim": "FC Mintraching",
+        "gast": "SV Donaustauf",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 2,
+        "datum": "25.07.2025",
+        "uhrzeit": "18:30",
+        "heim": "SV Harting",
+        "gast": "FC Laub",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "13:00",
+        "heim": "SV Donaustauf",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 3,
+        "datum": "29.07.2025",
+        "uhrzeit": "19:30",
+        "heim": "SV Obertraubling",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "15:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SC Regensburg",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SV Harting",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 3,
+        "datum": "28.07.2025",
+        "uhrzeit": "19:00",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 3,
+        "datum": "27.07.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "FC Mintraching",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 4,
+        "datum": "02.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SV Obertraubling",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SV Donaustauf",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 4,
+        "datum": "02.08.2025",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "1:5"
+    },
+    {
+        "spieltag": 4,
+        "datum": "02.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "FC Laub",
+        "ergebnis": "8:2"
+    },
+    {
+        "spieltag": 4,
+        "datum": "03.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "FC Oberhinkofen",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "2:4"
+    },
+    {
+        "spieltag": 5,
+        "datum": "08.08.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "SC Regensburg",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "12:00",
+        "heim": "SV Obertraubling",
+        "gast": "SV Harting",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "18.09.2025",
+        "uhrzeit": "18:30",
+        "heim": "Freier TuS Regensburg",
+        "gast": "FC Laub",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 5,
+        "datum": "09.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "FC Mintraching",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "18:00",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 5,
+        "datum": "10.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 6,
+        "datum": "16.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 6,
+        "datum": "13.08.2025",
+        "uhrzeit": "18:30",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "16:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "3:5"
+    },
+    {
+        "spieltag": 6,
+        "datum": "15.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "16:30",
+        "heim": "FC Laub",
+        "gast": "SV Obertraubling",
+        "ergebnis": "0:8"
+    },
+    {
+        "spieltag": 6,
+        "datum": "17.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "SV Donaustauf",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 7,
+        "datum": "22.08.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "FC Laub",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "12:00",
+        "heim": "SV Obertraubling",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 7,
+        "datum": "23.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "2:4"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "18:00",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SC Regensburg",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 7,
+        "datum": "24.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SV Harting",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 8,
+        "datum": "30.08.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "5:2"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "FC Mintraching",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 8,
+        "datum": "29.08.2025",
+        "uhrzeit": "18:00",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "0:5"
+    },
+    {
+        "spieltag": 8,
+        "datum": "30.08.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SV Donaustauf",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 8,
+        "datum": "31.08.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "5:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 9,
+        "datum": "05.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 9,
+        "datum": "06.09.2025",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "SC Regensburg",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "06.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SV Harting",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "16:30",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "FC Laub",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 9,
+        "datum": "07.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "3:6"
+    },
+    {
+        "spieltag": 10,
+        "datum": "13.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "5:0"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "12:00",
+        "heim": "SV Obertraubling",
+        "gast": "SV Donaustauf",
+        "ergebnis": "2:4"
+    },
+    {
+        "spieltag": 10,
+        "datum": "13.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "7:0"
+    },
+    {
+        "spieltag": 10,
+        "datum": "14.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "FC Mintraching",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 11,
+        "datum": "20.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SV Donaustauf",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 11,
+        "datum": "20.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SC Regensburg",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SV Harting",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "FC Laub",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 11,
+        "datum": "21.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SC Regensburg",
+        "ergebnis": "0:0"
+    },
+    {
+        "spieltag": 12,
+        "datum": "26.09.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 12,
+        "datum": "27.09.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "FC Mintraching",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 12,
+        "datum": "28.09.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 13,
+        "datum": "04.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SV Harting",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "FC Laub",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 13,
+        "datum": "21.10.2025",
+        "uhrzeit": "19:00",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "1:8"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 13,
+        "datum": "04.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 13,
+        "datum": "05.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SV Donaustauf",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 13,
+        "datum": "04.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "2:5"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 14,
+        "datum": "11.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SV Donaustauf",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:2"
+    },
+    {
+        "spieltag": 14,
+        "datum": "11.10.2025",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "6:3"
+    },
+    {
+        "spieltag": 14,
+        "datum": "11.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "FC Laub",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 14,
+        "datum": "12.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "4:2"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SC Regensburg",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 15,
+        "datum": "18.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 15,
+        "datum": "17.10.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "FC Mintraching",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "2:5"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 15,
+        "datum": "19.10.2025",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "SV Harting",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "FC Laub",
+        "ergebnis": "1:0"
+    },
+    {
+        "spieltag": 16,
+        "datum": "25.10.2025",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SV Donaustauf",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SV Obertraubling",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 16,
+        "datum": "25.10.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "2:0"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Harting",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 16,
+        "datum": "25.10.2025",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 16,
+        "datum": "26.10.2025",
+        "uhrzeit": "14:15",
+        "heim": "FC Mintraching",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "3:1"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.11.2025",
+        "uhrzeit": "16:00",
+        "heim": "SV Obertraubling",
+        "gast": "SC Regensburg",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 17,
+        "datum": "31.10.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "3:3"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.11.2025",
+        "uhrzeit": "14:15",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "0:6"
+    },
+    {
+        "spieltag": 17,
+        "datum": "22.03.2026",
+        "uhrzeit": "14:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "FC Mintraching",
+        "ergebnis": "5:2"
+    },
+    {
+        "spieltag": 17,
+        "datum": "02.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 17,
+        "datum": "22.03.2026",
+        "uhrzeit": "14:15",
+        "heim": "FC Laub",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 17,
+        "datum": "28.04.2026",
+        "uhrzeit": "19:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SV Harting",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 18,
+        "datum": "08.11.2025",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SV Donaustauf",
+        "ergebnis": "3:2"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Harting",
+        "gast": "SV Obertraubling",
+        "ergebnis": "2:5"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:15",
+        "heim": "FC Laub",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:15",
+        "heim": "FC Mintraching",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "2:6"
+    },
+    {
+        "spieltag": 18,
+        "datum": "08.11.2025",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 18,
+        "datum": "09.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "0:0"
+    },
+    {
+        "spieltag": 19,
+        "datum": "22.03.2026",
+        "uhrzeit": "14:15",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SC Regensburg",
+        "ergebnis": "0:1"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "14:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 19,
+        "datum": "15.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "2:8"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "FC Mintraching",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 19,
+        "datum": "15.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "FC Oberhinkofen",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "4:2"
+    },
+    {
+        "spieltag": 19,
+        "datum": "16.11.2025",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "FC Laub",
+        "ergebnis": "5:0"
+    },
+    {
+        "spieltag": 19,
+        "datum": "14.11.2025",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "SV Harting",
+        "ergebnis": "4:2"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "0:2"
+    },
+    {
+        "spieltag": 20,
+        "datum": "28.03.2026",
+        "uhrzeit": "14:15",
+        "heim": "FC Laub",
+        "gast": "SV Donaustauf",
+        "ergebnis": "0:6"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SV Obertraubling",
+        "ergebnis": "0:0"
+    },
+    {
+        "spieltag": 20,
+        "datum": "28.03.2026",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "FC Mintraching",
+        "ergebnis": "2:1"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "5:1"
+    },
+    {
+        "spieltag": 20,
+        "datum": "28.03.2026",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "3:0"
+    },
+    {
+        "spieltag": 20,
+        "datum": "29.03.2026",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "4:0"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "SC Regensburg",
+        "ergebnis": "1:1"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "1:3"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "2:2"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "0:4"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SV Donaustauf",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "1:4"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "FC Laub",
+        "ergebnis": "3:4"
+    },
+    {
+        "spieltag": 21,
+        "datum": "06.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SV Harting",
+        "ergebnis": "2:3"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "11.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SV Donaustauf",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "11.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "FC Mintraching",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 22,
+        "datum": "12.04.2026",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "18.04.2026",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "SC Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SV Donaustauf",
+        "gast": "SV Obertraubling",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "18.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "FC Laub",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 23,
+        "datum": "19.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "SV Harting",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "24.04.2026",
+        "uhrzeit": "19:00",
+        "heim": "SV Donaustauf",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "25.04.2026",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "15:00",
+        "heim": "SV Harting",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "15:15",
+        "heim": "FC Laub",
+        "gast": "FC Mintraching",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "15:30",
+        "heim": "FC Oberhinkofen",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "25.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 24,
+        "datum": "26.04.2026",
+        "uhrzeit": "14:00",
+        "heim": "SV Obertraubling",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "02.05.2026",
+        "uhrzeit": "16:00",
+        "heim": "SC Regensburg",
+        "gast": "SV Burgweinting Rgbg.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "15:00",
+        "heim": "ATSV Pirkensee-Ponholz",
+        "gast": "SV Donaustauf",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "15:15",
+        "heim": "SpVgg Ziegetsdorf Regensburg",
+        "gast": "SV Obertraubling",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "02.05.2026",
+        "uhrzeit": "15:00",
+        "heim": "SG Walhalla Regensburg",
+        "gast": "Freier TuS Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "15:15",
+        "heim": "FC Mintraching",
+        "gast": "FC Oberhinkofen",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "02.05.2026",
+        "uhrzeit": "14:30",
+        "heim": "TSV Kareth-Lappersdorf II",
+        "gast": "FC Laub",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 25,
+        "datum": "03.05.2026",
+        "uhrzeit": "14:00",
+        "heim": "TSV Wörth/Do.",
+        "gast": "SV Harting",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "SV Harting",
+        "gast": "SC Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "FC Laub",
+        "gast": "TSV Wörth/Do.",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "FC Oberhinkofen",
+        "gast": "TSV Kareth-Lappersdorf II",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "Freier TuS Regensburg",
+        "gast": "FC Mintraching",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "SV Obertraubling",
+        "gast": "SG Walhalla Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "SV Donaustauf",
+        "gast": "SpVgg Ziegetsdorf Regensburg",
+        "ergebnis": "-:-"
+    },
+    {
+        "spieltag": 26,
+        "datum": "10.05.2026",
+        "uhrzeit": "17:00",
+        "heim": "SV Burgweinting Rgbg.",
+        "gast": "ATSV Pirkensee-Ponholz",
+        "ergebnis": "-:-"
+    }
+]

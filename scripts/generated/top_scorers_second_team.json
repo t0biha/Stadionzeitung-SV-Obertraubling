@@ -1,0 +1,92 @@
+[
+  {
+    "rank": 1,
+    "player": "M. Dürschl",
+    "club": "TV Barbing",
+    "goals": 26,
+    "assists": 12,
+    "games": 17,
+    "image_slug": "m_durschl"
+  },
+  {
+    "rank": 2,
+    "player": "J. Stegemann",
+    "club": "FK Phönix",
+    "goals": 20,
+    "assists": 8,
+    "games": 15,
+    "image_slug": "j_stegemann"
+  },
+  {
+    "rank": 3,
+    "player": "M. Schmid",
+    "club": "O`traubling",
+    "goals": 14,
+    "assists": 5,
+    "games": 17,
+    "image_slug": "m_schmid"
+  },
+  {
+    "rank": 4,
+    "player": "B. Hej Sheykhi",
+    "club": "Stadtamhof",
+    "goals": 11,
+    "assists": 4,
+    "games": 14,
+    "image_slug": "b_hej_sheykhi"
+  },
+  {
+    "rank": 5,
+    "player": "A. Kabashi",
+    "club": "FC Kosova",
+    "goals": 11,
+    "assists": 2,
+    "games": 11,
+    "image_slug": "a_kabashi"
+  },
+  {
+    "rank": 6,
+    "player": "A. Babl",
+    "club": "Oberhinkofen",
+    "goals": 10,
+    "assists": 4,
+    "games": 17,
+    "image_slug": "a_babl"
+  },
+  {
+    "rank": 7,
+    "player": "G. Lengyel",
+    "club": "TV Barbing",
+    "goals": 10,
+    "assists": 3,
+    "games": 10,
+    "image_slug": "g_lengyel"
+  },
+  {
+    "rank": 8,
+    "player": "C. Hartl",
+    "club": "SG SC Matting",
+    "goals": 9,
+    "assists": 11,
+    "games": 18,
+    "image_slug": "c_hartl"
+  },
+  {
+    "rank": 9,
+    "player": "A. Krasniqi",
+    "club": "FC Kosova",
+    "goals": 9,
+    "assists": 2,
+    "games": 9,
+    "image_slug": "a_krasniqi"
+  },
+  {
+    "rank": 10,
+    "player": "E. Üzüm",
+    "club": "Prüfening",
+    "goals": 9,
+    "assists": 0,
+    "games": 18,
+    "image_slug": "e_uzum"
+  }
+]

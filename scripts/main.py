@@ -14,68 +14,93 @@ from lib.fupa_widget import export_widget
 
 
 def _prompt_matchday() -> int:
-    eingabe = input("Welchen Spieltag möchtest du erstellen? (z.B. 2): ")
-    return int(eingabe)
+    user_input = input("Welchen Spieltag möchtest du erstellen? (z.B. 2): ")
+    return int(user_input)
 
 
 def run_extract(cfg: dict) -> None:
-    pdf_k1 = resolve_path(cfg["pdf"]["k1"])
-    json_k1 = resolve_path(cfg["json"]["k1"])
-    pdf_a2 = resolve_path(cfg["pdf"]["a2"])
-    json_a2 = resolve_path(cfg["json"]["a2"])
+    first_team_pdf = resolve_path(cfg["pdf"]["first_team"])
+    first_team_json = resolve_path(cfg["json"]["first_team"])
+    second_team_pdf = resolve_path(cfg["pdf"]["second_team"])
+    second_team_json = resolve_path(cfg["json"]["second_team"])
 
-    print("Lese PDF ein (K1)...")
-    count_k1 = extract_from_pdf(pdf_k1, json_k1)
-    print(f"Erfolg! {count_k1} Spiele extrahiert -> {json_k1}")
+    print("Lese PDF ein (1. Mannschaft)...")
+    first_team_match_count = extract_from_pdf(first_team_pdf, first_team_json)
+    print(f"Erfolg! {first_team_match_count} Spiele extrahiert -> {first_team_json}")
 
-    print("Lese PDF ein (A2)...")
-    count_a2 = extract_from_pdf(pdf_a2, json_a2)
-    print(f"Erfolg! {count_a2} Spiele extrahiert -> {json_a2}")
+    print("Lese PDF ein (2. Mannschaft)...")
+    second_team_match_count = extract_from_pdf(second_team_pdf, second_team_json)
+    print(f"Erfolg! {second_team_match_count} Spiele extrahiert -> {second_team_json}")
 
 
 def run_tables(cfg: dict, matchday_input: int | None) -> None:
     if matchday_input is None:
         matchday_input = _prompt_matchday()
 
-    # kompatibel zu bisherigen Skripten:
-    # "dspieltag" = matchday - 1, "nspieltag" = matchday + 1
-    matchday_current = matchday_input - 1
+    matchday_previous = matchday_input - 1
+    matchday_current = matchday_input
     matchday_next = matchday_input + 1
 
     logos_dir = cfg["paths"]["logos_dir"]
 
-    ok_k1_current = generate_matchday_table(
-        json_input=resolve_path(cfg["json"]["k1"]),
-        output_tex=resolve_path(cfg["latex"]["k1_current"]),
-        logos=cfg["logos"]["k1"],
+    first_team_previous_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["first_team"]),
+        output_tex=resolve_path(cfg["latex"]["first_team_previous"]),
+        logos=cfg["logos"]["first_team"],
+        logos_dir=logos_dir,
+        matchday=matchday_previous,
+    )
+
+    first_team_current_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["first_team"]),
+        output_tex=resolve_path(cfg["latex"]["first_team_current"]),
+        logos=cfg["logos"]["first_team"],
         logos_dir=logos_dir,
         matchday=matchday_current,
     )
 
-    ok_k1_next = generate_matchday_table(
-        json_input=resolve_path(cfg["json"]["k1"]),
-        output_tex=resolve_path(cfg["latex"]["k1_next"]),
-        logos=cfg["logos"]["k1"],
+    first_team_next_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["first_team"]),
+        output_tex=resolve_path(cfg["latex"]["first_team_next"]),
+        logos=cfg["logos"]["first_team"],
         logos_dir=logos_dir,
         matchday=matchday_next,
     )
 
-    ok_a2_current = generate_matchday_table(
-        json_input=resolve_path(cfg["json"]["a2"]),
-        output_tex=resolve_path(cfg["latex"]["a2_current"]),
-        logos=cfg["logos"]["a2"],
+    second_team_previous_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["second_team"]),
+        output_tex=resolve_path(cfg["latex"]["second_team_previous"]),
+        logos=cfg["logos"]["second_team"],
+        logos_dir=logos_dir,
+        matchday=matchday_previous,
+    )
+
+    second_team_current_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["second_team"]),
+        output_tex=resolve_path(cfg["latex"]["second_team_current"]),
+        logos=cfg["logos"]["second_team"],
         logos_dir=logos_dir,
         matchday=matchday_current,
     )
 
-    ok_a2_next = generate_matchday_table(
-        json_input=resolve_path(cfg["json"]["a2"]),
-        output_tex=resolve_path(cfg["latex"]["a2_next"]),
-        logos=cfg["logos"]["a2"],
+    second_team_next_ok = generate_matchday_table(
+        json_input=resolve_path(cfg["json"]["second_team"]),
+        output_tex=resolve_path(cfg["latex"]["second_team_next"]),
+        logos=cfg["logos"]["second_team"],
         logos_dir=logos_dir,
         matchday=matchday_next,
     )
-    if all([ok_k1_current, ok_k1_next, ok_a2_current, ok_a2_next]):
+
+    if all(
+        [
+            first_team_previous_ok,
+            first_team_current_ok,
+            first_team_next_ok,
+            second_team_previous_ok,
+            second_team_current_ok,
+            second_team_next_ok,
+        ]
+    ):
         print("Tabellen aktualisiert.")
     else:
         print("Hinweis: Für mindestens einen Spieltag wurden keine Spiele gefunden.")
@@ -87,22 +112,22 @@ def run_title(cfg: dict, matchday_input: int | None) -> None:
 
     teams = [
         {
-            "key": "k1",
-            "name": cfg["teams"]["k1"]["name"],
-            "league": cfg["teams"]["k1"]["league"],
-            "suffix": cfg["teams"]["k1"]["suffix"],
+            "key": "first_team",
+            "name": cfg["teams"]["first_team"]["name"],
+            "league": cfg["teams"]["first_team"]["league"],
+            "suffix": cfg["teams"]["first_team"]["suffix"],
         },
         {
-            "key": "a2",
-            "name": cfg["teams"]["a2"]["name"],
-            "league": cfg["teams"]["a2"]["league"],
-            "suffix": cfg["teams"]["a2"]["suffix"],
+            "key": "second_team",
+            "name": cfg["teams"]["second_team"]["name"],
+            "league": cfg["teams"]["second_team"]["league"],
+            "suffix": cfg["teams"]["second_team"]["suffix"],
         },
     ]
 
     json_paths = {
-        "k1": resolve_path(cfg["json"]["k1"]),
-        "a2": resolve_path(cfg["json"]["a2"]),
+        "first_team": resolve_path(cfg["json"]["first_team"]),
+        "second_team": resolve_path(cfg["json"]["second_team"]),
     }
 
     output_tex = resolve_path(cfg["title"]["output"])
@@ -122,7 +147,12 @@ def run_title(cfg: dict, matchday_input: int | None) -> None:
 def run_widgets(cfg: dict) -> None:
     output_dir = resolve_path(cfg["paths"]["generated_dir"])
 
-    for key in ["tabelle_k1", "tabelle_a2", "spielplan_1", "spielplan_2"]:
+    for key in [
+        "league_table_first_team",
+        "league_table_second_team",
+        "match_schedule_widget_first_team",
+        "match_schedule_widget_second_team",
+    ]:
         widget_cfg = cfg["widgets"][key]
         export_widget(
             output_dir=output_dir,
@@ -140,23 +170,23 @@ def run_widgets(cfg: dict) -> None:
 def run_terms(cfg: dict) -> None:
     logos_dir = cfg["paths"]["logos_dir"]
 
-    ok_k1 = generate_term_list(
-        json_input=resolve_path(cfg["json"]["k1"]),
-        output_tex=resolve_path(cfg["latex"]["term_k1"]),
-        logos=cfg["logos"]["k1"],
+    first_team_fixture_list_ok = generate_term_list(
+        json_input=resolve_path(cfg["json"]["first_team"]),
+        output_tex=resolve_path(cfg["latex"]["fixture_list_first_team"]),
+        logos=cfg["logos"]["first_team"],
         logos_dir=logos_dir,
-        team_name=cfg["teams"]["k1"]["name"],
+        team_name=cfg["teams"]["first_team"]["name"],
     )
 
-    ok_a2 = generate_term_list(
-        json_input=resolve_path(cfg["json"]["a2"]),
-        output_tex=resolve_path(cfg["latex"]["term_a2"]),
-        logos=cfg["logos"]["a2"],
+    second_team_fixture_list_ok = generate_term_list(
+        json_input=resolve_path(cfg["json"]["second_team"]),
+        output_tex=resolve_path(cfg["latex"]["fixture_list_second_team"]),
+        logos=cfg["logos"]["second_team"],
         logos_dir=logos_dir,
-        team_name=cfg["teams"]["a2"]["name"],
+        team_name=cfg["teams"]["second_team"]["name"],
     )
 
-    if ok_k1 and ok_a2:
+    if first_team_fixture_list_ok and second_team_fixture_list_ok:
         print("Terminlisten aktualisiert.")
     else:
         print("Hinweis: Für mindestens eine Terminliste wurden keine Spiele gefunden.")
@@ -169,15 +199,55 @@ def _run_script(script_name: str, args: list[str]) -> None:
 
 
 def run_scorers(cfg: dict) -> None:
-    top = int(cfg["scorers"]["top"])
-    k1_league = cfg["scorers"]["k1_league"]
-    a2_league = cfg["scorers"]["a2_league"]
+    top_scorers_limit = int(cfg["scorers"]["top"])
+    first_team_league_slug = cfg["scorers"]["first_team_league_slug"]
+    second_team_league_slug = cfg["scorers"]["second_team_league_slug"]
 
-    _run_script("12_final_export_torjaegerk1.py", ["--league", k1_league, "--top", str(top)])
-    _run_script("14_export_torjaegera2.py", ["--league", a2_league, "--top", str(top)])
+    _run_script(
+        "fetch_top_scorers_first_team.py",
+        [
+            "--league",
+            first_team_league_slug,
+            "--top",
+            str(top_scorers_limit),
+            "--out",
+            "generated/top_scorers_first_team.json",
+        ],
+    )
+    _run_script(
+        "fetch_top_scorers_second_team.py",
+        [
+            "--league",
+            second_team_league_slug,
+            "--top",
+            str(top_scorers_limit),
+            "--out",
+            "generated/top_scorers_second_team.json",
+        ],
+    )
 
-    _run_script("13_json2tex_torjaegerk1.py", ["--league", k1_league, "--top", str(top)])
-    _run_script("15_json2tex_torjaegera2.py", ["--league", a2_league, "--top", str(top)])
+    _run_script(
+        "export_top_scorers_first_team_tex.py",
+        [
+            "--json",
+            "generated/top_scorers_first_team.json",
+            "--out",
+            "generated/top_scorers_first_team.tex",
+            "--top",
+            str(top_scorers_limit),
+        ],
+    )
+    _run_script(
+        "export_top_scorers_second_team_tex.py",
+        [
+            "--json",
+            "generated/top_scorers_second_team.json",
+            "--out",
+            "generated/top_scorers_second_team.tex",
+            "--top",
+            str(top_scorers_limit),
+        ],
+    )
 
     print("Torjäger aktualisiert.")
 

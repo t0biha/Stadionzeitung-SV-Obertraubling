@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-WOCHENTAGE = [
+WEEKDAYS = [
     "Montag",
     "Dienstag",
     "Mittwoch",
@@ -47,8 +47,8 @@ def _normalize_team_name(name: str) -> str:
     return " ".join(cleaned.split())
 
 
-def _is_spielfrei(spiel: dict[str, Any]) -> bool:
-    return str(spiel.get("gast", "")).strip().lower() == "spielfrei"
+def _is_bye(match_data: dict[str, Any]) -> bool:
+    return str(match_data.get("gast", "")).strip().lower() == "spielfrei"
 
 
 def _team_label(team: dict[str, str]) -> str:
@@ -65,22 +65,22 @@ def find_match_for_matchday(
     if not json_input.exists():
         return None
 
-    alle_spiele: list[dict[str, Any]] = json.loads(
+    all_matches: list[dict[str, Any]] = json.loads(
         json_input.read_text(encoding="utf-8")
     )
 
     normalized_team = _normalize_team_name(team_name)
 
-    for spiel in alle_spiele:
+    for match_data in all_matches:
         try:
-            if int(spiel.get("spieltag")) != matchday:
+            if int(match_data.get("spieltag")) != matchday:
                 continue
 
-            heim = spiel.get("heim", "")
-            if heim == team_name:
-                return spiel
-            if _normalize_team_name(heim) == normalized_team:
-                return spiel
+            home_team = match_data.get("heim", "")
+            if home_team == team_name:
+                return match_data
+            if _normalize_team_name(home_team) == normalized_team:
+                return match_data
         except Exception:
             continue
 
@@ -88,30 +88,30 @@ def find_match_for_matchday(
 
 
 def generate_block(
-    team: dict[str, str], spiel: dict[str, Any] | None, matchday: int
+    team: dict[str, str], match_data: dict[str, Any] | None, matchday: int
 ) -> str:
-    if not spiel:
+    if not match_data:
         return rf"""
 \newcommand{{\TitelSpieltage{team['suffix']}}}{{{matchday}. Spieltag / {team['league']}}}
 \newcommand{{\TitelDatume{team['suffix']}}}{{??.??.???? | ??:?? Uhr}}
 \newcommand{{\TitelPartiee{team['suffix']}}}{{{team['name']} - Gegner unbekannt}}
 """
 
-    datum_obj = datetime.strptime(spiel["datum"], "%d.%m.%Y")
-    wochentag = WOCHENTAGE[datum_obj.weekday()]
+    date_obj = datetime.strptime(match_data["datum"], "%d.%m.%Y")
+    weekday = WEEKDAYS[date_obj.weekday()]
 
-    if _is_spielfrei(spiel):
+    if _is_bye(match_data):
         label = _team_label(team)
         return rf"""
-\newcommand{{\TitelSpieltage{team['suffix']}}}{{{spiel['spieltag']}. Spieltag / {team['league']}}}
-\newcommand{{\TitelDatume{team['suffix']}}}{{{wochentag} {spiel['datum']} | Spielfrei}}
+\newcommand{{\TitelSpieltage{team['suffix']}}}{{{match_data['spieltag']}. Spieltag / {team['league']}}}
+\newcommand{{\TitelDatume{team['suffix']}}}{{{weekday} {match_data['datum']} | Spielfrei}}
 \newcommand{{\TitelPartiee{team['suffix']}}}{{{label} Spielfrei}}
 """
 
     return rf"""
-\newcommand{{\TitelSpieltage{team['suffix']}}}{{{spiel['spieltag']}. Spieltag / {team['league']}}}
-\newcommand{{\TitelDatume{team['suffix']}}}{{{wochentag} {spiel['datum']} | {spiel['uhrzeit']} Uhr}}
-\newcommand{{\TitelPartiee{team['suffix']}}}{{{team['name']} - {spiel['gast']}}}
+\newcommand{{\TitelSpieltage{team['suffix']}}}{{{match_data['spieltag']}. Spieltag / {team['league']}}}
+\newcommand{{\TitelDatume{team['suffix']}}}{{{weekday} {match_data['datum']} | {match_data['uhrzeit']} Uhr}}
+\newcommand{{\TitelPartiee{team['suffix']}}}{{{team['name']} - {match_data['gast']}}}
 """
 
 
@@ -128,8 +128,8 @@ def generate_title_data(
     for team in teams:
         team_name = team["name"]
         key = team["key"]
-        spiel = find_match_for_matchday(team_name, json_paths[key], matchday)
-        content += generate_block(team, spiel, matchday)
+        match_data = find_match_for_matchday(team_name, json_paths[key], matchday)
+        content += generate_block(team, match_data, matchday)
 
     content += rf"""
 % Ausgabe Nummer (global)
